@@ -1,0 +1,258 @@
+body, ul, li, ol, nav, canvas {
+  padding: 0;
+  margin: 0; }
+
+a, a:hover, a:visited, a:active, a:focus, button:visited, button:visited, button:focus {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none !important;
+  outline: none !important; }
+
+input:focus, textarea:focus, select:focus, .slick-slide:focus {
+  outline: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+textarea {
+  resize: none; }
+
+a {
+  cursor: pointer;
+  transition: all 0.7s ease; }
+
+
+.Common_tbl {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.Common_tbl_cell {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle; }
+
+strong {
+  font-weight: 500; }
+
+.postn_rltv {
+  position: relative; }
+
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #393939;
+  font-weight: 400;
+line-height: normal;
+font-size: 15px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #404040;
+margin-bottom: 15px; }
+h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+p{
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+.sub-logo a{
+  float:right;
+  width: 82px;
+}
+header{
+  padding: 15px 0;
+  box-shadow: 0 0 8px -4px #000;
+  margin-bottom: 25px;
+
+}
+.top-section{
+  float: left;
+  width: 100%;
+  /* border-bottom: 1px solid #ccc;
+  padding-bottom: 25px; */
+  margin-bottom: 25px;
+}
+.tab-content{
+  padding: 25px 0px;
+}
+.repeat-div{
+  padding-bottom: 25px;
+  padding: 0 50px;
+  position: relative;
+  height: 85px;
+}
+.repeat-div .repeat-div{
+  padding: 0 15px;
+}
+.txt-ara{
+  height:170px;
+}
+label{
+  font-weight: normal;
+  font-size: 13px;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+.radio label{
+  opacity: 1;
+  font-size: 15px;
+}
+input[type="text"], input[type="number"], textarea{
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  height: 40px;
+}
+input[type="file"]{ float: left;
+  width: 100%;
+  height: 40px;}
+textarea{
+  height: 124px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+}
+select{
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  height: 40px;
+  
+}
+.btn-wrp{
+  float: left;
+  width: 100%;
+  padding: 25px 50px 0;
+}
+.btn-wrp p{
+  margin-bottom: 25px;
+}
+.btn-wrp p a{
+  color: #329fc5;
+}
+a{
+  color: #329fc5;
+}
+.btn-wrp label{
+  float: left;
+  width: auto;
+    padding-right: 15px;
+}
+.pdng{
+  padding: 0 35px;
+}
+.btn{
+  float: left;
+  background: #329fc5;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  width: 140px;
+  height: 42px;
+  text-transform: uppercase;
+  margin-right: 30px;
+  border: 1px solid #329fc5;
+  color:#fff;
+}
+.cancel{
+  background: #404040;
+  border: #404040;
+  color: white;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: 0;
+  /* background: #f1f1f1; */
+
+  border-radius: 0;
+  border-bottom: 5px solid #329fc5;
+
+}
+.nav-tabs>li>a {
+  margin-right: 50px;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #a9a9a9;
+}
+.nav-tabs>li:last-child>a{
+  margin-right: 0;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  color: #404040;
+  border: 0;
+}
+h4{
+  font-weight: 700;
+}
+footer {
+  float: left;
+  width: 100%;
+  background: #393185;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+@media all and (max-width: 991px) {
+.repeat-div {
+    padding: 0 15px;
+}
+.pdng{
+  padding: 0;
+}
+.btn-wrp{
+  padding: 25px 15px 0;
+}
+}
+
+@media all and (max-width: 767px) {
+ .main-logo, .sub-logo{
+   width: 50%;
+ }
+ .main-logo a{    width: 275px;
+  float: left;}
+ .sub-logo a {
+  float: right;
+  width: 54px;
+}
+.nav-tabs>li>a {
+  margin-right: 15px;
+  font-size: 18px;
+}
+  }
+  @media all and (max-width: 480px) {
+    .main-logo, .sub-logo{
+      width: 100%;
+      text-align: center;
+    }
+    .main-logo a{   
+     float: none;
+    display: inline-block; margin-bottom: 15px;}
+    .sub-logo a {
+      float: none;
+      display: inline-block;
+   }
+   .btn{
+     width: 100px;
+     margin-right: 15px;
+   }
+     }
